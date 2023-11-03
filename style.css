@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #30363d;
+ 
+}
+/* Navbar styling */
+.navbar {
+    background-color: #30363d;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0 22px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    background-color: #30363d;
+}
+
+.navbar-name {
+    color: white;
+    font-size: 29px;
+    margin-top: 8px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+/* Nav list styling */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li a {
+    border-right: 1px solid #bbb;
+    font-family: monospace;
+    font-size: 28px;
+
+}
+
+/* Remove border for last link */
+.nav-list li:last-child a {
+    border-right: none;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #30363d;
+    height: 100vh;
+    margin-top: 138px;
+}
+
+.left-column, .right-column {
+    flex: 1 0 40%;
+    padding: 20px;
+}
+
+.left-column {
+    background-color: #30363d;
+    margin-left: 8px;
+}
+.left-column h1{
+    
+    color: white;
+    font-size: 50px;
+    
+}
+.left-column h1 span{
+    color: red;
+}
+.left-column h1 p{
+    color: white;
+}
+
+.right-column {
+    background-color: #30363d;
+    
+}
+.left-column a{
+    color: #ddd;
+    text-decoration: none;
+    padding-right: 25px;
+}
+.left-column .btn{
+    margin-top: 19px;
+    padding: 9px;
+    font-size: 23px;
+    border-radius: 1pc;
+    background: #5f8b7e;
+    color: whitesmoke;
+}
+img {
+    padding: 38px;
+    width: 43%;
+    height: auto;
+    border-radius:300px;
+    margin-left: 297px;
+}
+
+@media (max-width: 768px) {
+    .left-column, .right-column {
+        flex: 1 0 100%;
+    }
+}
